@@ -1,4 +1,4 @@
-import { createOperation } from 'apollo-link';
+import { createOperation } from '@apollo/client/link/utils';
 import gql from 'graphql-tag';
 import { OperationDefinitionNode, VariableNode, print } from 'graphql';
 

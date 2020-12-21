@@ -1,4 +1,4 @@
-import { createOperation, Operation } from 'apollo-link';
+import { Operation } from '@apollo/client';
 import {
     OperationDefinitionNode,
     DirectiveNode,
@@ -22,6 +22,7 @@ import {
     getOperationDefinitionOrDie,
     getOperationDefinition,
 } from 'apollo-utilities';
+import { createOperation } from '@apollo/client/link/utils';
 
 const DIRECTIVE_NAME = 'serialize';
 

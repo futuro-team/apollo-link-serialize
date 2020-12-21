@@ -1,9 +1,9 @@
 {
-  "name": "apollo-link-serialize",
-  "version": "3.1.1",
+  "name": "futuro-apollo-link-serialize",
+  "version": "0.0.3",
   "description": "A link that serializes requests by key, making sure that they execute in the exact order submitted",
   "dependencies": {
-    "apollo-link": "^1.2.4",
+    "@apollo/client": "^3.3.6",
     "apollo-utilities": "^1.0.26",
     "zen-observable-ts": "^0.8.11"
   },
